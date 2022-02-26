@@ -21,7 +21,9 @@ public class US_1_LogIn {
     //Scenarios: 2. Verify Users (HR, marketing, Helpdesk) login successfully
     @DataProvider
     public Object[][] logins(){
-        return new Object[][]{{"hr27@cydeo.com"}, {"helpdesk27@cydeo.com"},{"marketing27@cydeo.com"}};
+        return new Object[][]{{"hr25@cydeo.com"},{"hr26@cydeo.com"},{"hr27@cydeo.com"},{"helpdesk25@cydeo.com"},
+                {"helpdesk26@cydeo.com"},{"helpdesk27@cydeo.com"},{"marketing25@cydeo.com"},{"marketing26@cydeo.com"},
+                {"marketing27@cydeo.com"}};
     }
 
     @BeforeMethod
